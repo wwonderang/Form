@@ -14,7 +14,7 @@
 }
 
 body {
-  background-image: url(../img/bg.jpg);
+  background-image: url('../img/bg.jpg');
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif, Verdana;
 }
@@ -75,7 +75,7 @@ input[type="password"]:focus-within {
 
 input:focus::-webkit-input-placeholder {
   color:transparent;
-  /* правило, чтобы плэйсхолдер исчезал при нажатии */
+  /* rule to make the placeholder disappear when clicked */
   }
 
 .container a {
@@ -116,12 +116,12 @@ a.login-btn:hover {
 
 .container .input:focus-within:before {
 color:var(--lavender);
-/* чтобы цвет иконки становился фиолетовым при вводе инпута */
+/* the color of the icon turns purple when you enter an input */
 }
 
 :active, :hover, :focus {
   outline: none;
-  /* чтобы при нажатии на инпут не появлялась рамка вокруг */
+  /* when you click on the input, a frame does not appear around */
 }
 
 a.forgot-psw-title:hover {
